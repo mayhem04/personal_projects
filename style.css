@@ -80,3 +80,15 @@ button {
     display: flex;
     border-radius: 15px;
 }
+.caption {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+.subtext
+{
+    width:150px;
+    justify-content: center;
+    align-items: center;
+}

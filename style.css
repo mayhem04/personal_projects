@@ -92,3 +92,20 @@ button {
     justify-content: center;
     align-items: center;
 }
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+div.quote {
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+}
+.author {
+    margin-left: auto;
+    margin-right: 50px;
+    
+}

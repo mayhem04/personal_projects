@@ -134,7 +134,8 @@ div.quote {
 }
 button.signup
 {
-    padding: 15px;
+    padding: 10px 25px;
     border-color:#E5E7EB;
     border-radius: 10px;
+    background-color: #3882f6;
 }

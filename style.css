@@ -98,6 +98,7 @@ button {
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 div.quote {
     font-style: italic;
@@ -108,4 +109,32 @@ div.quote {
     margin-left: auto;
     margin-right: 50px;
     
+}
+.fourth-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    width:auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-top: 10px;
+    margin: 80px;
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.its-time {
+    font-weight: bold;
+    font-size: large;
+    
+}
+button.signup
+{
+    padding: 15px;
+    border-color:#E5E7EB;
+    border-radius: 10px;
 }

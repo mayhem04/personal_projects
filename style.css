@@ -19,6 +19,7 @@ body {
 }
 .menu_items.logo{
     font-size: 24px;
+    font-weight: bold;
    
 }
 p {
@@ -122,7 +123,7 @@ div.quote {
     padding-left: 80px;
     margin-top: 10px;
     margin: 80px;
-    margin-right: 100px;
+    margin-right: 150px;
     margin-left: 150px;
     margin-bottom: 60px;
     border-radius: 10px;
@@ -138,4 +139,12 @@ button.signup
     border-color:#E5E7EB;
     border-radius: 10px;
     background-color: #3882f6;
+}
+.section-five {
+    background: #1f2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 30px;
+    font: 10px;
+
 }

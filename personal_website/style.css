@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(45deg, #F8BBD0, #ffff0070, #ba68c8ab);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0ch;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%;
+    font-family: Poppins;
+}
+h1 {
+    color: black;
+}
+.about_me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linkedin {
+    background-color: rgb(62, 126, 245);
+    color: white;
+    cursor: pointer;
+    height: 36px;
+    width: 70px;
+    border-radius: 18px;
+    border-style: solid;
+    border-color:rgb(58, 110, 208) ;
+    font-weight: bold;
+    transition: box-shadow 1s;
+    padding: 7px;
+    text-align: center;
+}
+img {
+    height: 400px;
+    width: auto;
+    border-radius: 360px;
+}
+.intern {
+    display: flex;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.introduction
+{
+    margin: 100px;
+}
+.experiences h1 {
+    text-align: center;
+}
+.tutor {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.experiences {
+    background:rgb(239 231 197 / 59%);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+}
+.rep {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.width {
+    width: 60px;
+}
+.description {
+    margin-left: 150px;
+}
+.fellow {
+    display: flex;
+    align-items: center;
+    margin: 50px 100px;
+}

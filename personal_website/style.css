@@ -16,6 +16,17 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+.image_section {
+    display: flex;
+    flex-direction: column;
+
+}
+.link_section {
+    size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
 .linkedin {
     background-color: rgb(62, 126, 245);
     color: white;
@@ -33,7 +44,7 @@ h1 {
 img {
     height: 400px;
     width: auto;
-    border-radius: 360px;
+    border-radius: 400px;
 }
 .intern {
     display: flex;

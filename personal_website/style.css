@@ -97,16 +97,15 @@ img {
 .experiences {
     background:rgb(239 231 197 / 59%);
     border-radius: 20px;
-    padding: 10px;
-    margin: 30px;
+    padding: 2%;
+    margin: 5%;
 }
 .rep {
     display: flex;
     justify-content: flex-start;
 }
 .description {
-    margin-left: 70px;
-    margin-right: 20px;
+    width: 60%;
 }
 .fellow {
     display: flex;
@@ -133,7 +132,7 @@ img {
     .experiences {
         display: flex;
         flex-direction: column;
-        padding: 20px; /* Add inner padding */
+        padding: 5%; /* Add inner padding */
         gap: 20px; /* Spacing between child elements */
         flex-wrap: wrap;
         text-align: center;
@@ -156,5 +155,6 @@ img {
 
     .description {
         margin: 0 0; /* Remove excessive left margin */
+        text-align: left;
     }
 }

@@ -14,7 +14,7 @@ h1 {
 .about_me {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 .image_section {
     display: flex;
@@ -80,7 +80,6 @@ img {
 .intern {
     display: flex;
     justify-content: flex-start;
-    margin: 50px 100px;
 }
 
 .introduction
@@ -93,9 +92,6 @@ img {
 .tutor {
     display: flex;
     justify-content: flex-start;
-    margin: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .experiences {
@@ -103,38 +99,35 @@ img {
     border-radius: 20px;
     padding: 10px;
     margin: 30px;
-    width: 100%;
 }
 .rep {
     display: flex;
     justify-content: flex-start;
-    margin: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.width {
-    width: 100%;
 }
 .description {
     margin-left: 70px;
     margin-right: 20px;
-    width: 100%;
 }
 .fellow {
     display: flex;
     justify-content: flex-start;
-    margin: 50px 100px;
 }
-
+.width {
+    width: 40%;
+}
 @media screen and (max-width: 768px) {
     body {
         padding: 5%;
         font-size: 14px;
     }
+    .image_section
+    {
+        width: auto;
+    }
 
     .about_me {
         flex-direction: column;
-        text-align: center; /* Ensure elements align properly */
+        text-align: left; /* Ensure elements align properly */
     }
 
     .experiences {
@@ -145,11 +138,11 @@ img {
         flex-wrap: wrap;
         text-align: center;
         background-size: auto;
+        margin: auto;
     }
 
     .intern {
         flex-direction: column;
-        width: 100%;
         align-items: flex-start; /* Align content within the section */
         padding: 10px; /* Add padding inside each experience */
     }
@@ -158,10 +151,10 @@ img {
         margin: auto;
         flex-wrap: wrap;
         padding: 10px;
+        align-items: center ;
     }
 
     .description {
         margin: 0 0; /* Remove excessive left margin */
-        width: 100%; /* Ensure description spans the full width */
     }
 }

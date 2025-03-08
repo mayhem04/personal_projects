@@ -158,5 +158,6 @@ img {
     .description {
         margin: 0 0; /* Remove excessive left margin */
         text-align: left;
+        width: fit-content;
     }
 }

@@ -15,6 +15,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: left;
+    margin:5%;
 }
 .image_section {
     display: flex;
@@ -30,11 +31,10 @@ h1 {
     height: 10px;
 }
 .linkedin {
-    background-color:black;
-    color: #ffecb3;
+    background-color:transparent;
+    color: black;
     cursor: pointer;
     border-style: solid;
-    border-color: transparent ;
     font-weight: bold;
     padding-left: 4px;
     padding-right: 4px;
@@ -74,8 +74,6 @@ h1 {
 }
 img {
     height: 400px;
-    width: auto;
-    border-radius: 400px;
 }
 .intern {
     display: flex;
@@ -84,7 +82,8 @@ img {
 
 .introduction
 {
-    margin: 100px;
+    margin: 15%;
+    margin-left: 0;
 }
 .experiences h1 {
     text-align: center;
@@ -123,7 +122,9 @@ img {
     {
         width: auto;
     }
-
+    img {
+        height: 300px;
+    }
     .about_me {
         flex-direction: column;
         text-align: left; /* Ensure elements align properly */

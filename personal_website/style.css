@@ -160,4 +160,7 @@ img {
         text-align: left;
         width: fit-content;
     }
+    .width {
+        width: fit-content;
+    }
 }

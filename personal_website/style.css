@@ -121,6 +121,7 @@ img {
     .image_section
     {
         width: auto;
+        margin: 5%;
     }
     img {
         height: 300px;

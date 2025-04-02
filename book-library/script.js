@@ -20,3 +20,13 @@ function addBookToLibrary(title, author, pages, read) {
     myLibrary.push(newBook);
     displayBooks();
   }
+
+  function removeBook(id) {
+    const index = myLibrary.findIndex(book => book.id === id);
+    if (index !== -1) {
+      myLibrary.splice(index, 1);
+      displayBooks();
+    }
+  }
+  
+

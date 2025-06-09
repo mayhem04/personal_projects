@@ -17,7 +17,7 @@ const gameBoard = (function() {
     }
     function reset_board() {
         for (i = 0; i < gameboard.length; i++) {
-            gameBoard[i] = "";
+            gameboard[i] = "";
         }
     }
     return {setMarker,getBoard,reset_board};
@@ -60,6 +60,11 @@ tiles.forEach((tile,index) => {
         tile.textContent = currentPlayer.marker;
         if (checkWin(gameBoard.getBoard(),currentPlayer.marker)) {
             alert(currentPlayer.name + " wins!");
+            gameBoard.reset_board();
+            tiles.forEach(tile => {
+                tile.textContent = "";
+            });
+            currentPlayer = player1;
         }
         currentPlayer = currentPlayer === player1 ? player2 : player1;
     });
@@ -71,6 +76,8 @@ reset_button.addEventListener('click', () => {
     tiles.forEach(tile => {
         tile.textContent = "";
     });
+    currentPlayer = player1;
+
 
 });
 
